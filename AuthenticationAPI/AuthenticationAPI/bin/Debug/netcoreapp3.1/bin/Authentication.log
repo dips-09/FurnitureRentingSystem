@@ -1,0 +1,337 @@
+INFO  06:04:52 Application started. Press Ctrl+C to shut down.
+INFO  06:04:52 Application started. Press Ctrl+C to shut down.
+INFO  06:04:52 Hosting environment: Development
+INFO  06:04:52 Hosting environment: Development
+INFO  06:04:52 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  06:04:52 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  06:05:46 Validating the Vendor!
+INFO  06:08:15 Application started. Press Ctrl+C to shut down.
+INFO  06:08:15 Application started. Press Ctrl+C to shut down.
+INFO  06:08:15 Hosting environment: Development
+INFO  06:08:15 Hosting environment: Development
+INFO  06:08:15 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  06:08:15 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  06:08:47 Validating the Vendor!
+INFO  06:08:51 Token Is Generated!
+INFO  10:48:07 Application started. Press Ctrl+C to shut down.
+INFO  10:48:07 Application started. Press Ctrl+C to shut down.
+INFO  10:48:07 Hosting environment: Development
+INFO  10:48:07 Hosting environment: Development
+INFO  10:48:07 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  10:48:07 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  09:44:00 Application started. Press Ctrl+C to shut down.
+INFO  09:44:00 Application started. Press Ctrl+C to shut down.
+INFO  09:44:00 Hosting environment: Development
+INFO  09:44:00 Hosting environment: Development
+INFO  09:44:00 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  09:44:00 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  09:45:08 Validating the Vendor!
+INFO  09:45:15 Token Is Generated!
+INFO  11:36:56 Application started. Press Ctrl+C to shut down.
+INFO  11:36:56 Application started. Press Ctrl+C to shut down.
+INFO  11:36:56 Hosting environment: Development
+INFO  11:36:56 Hosting environment: Development
+INFO  11:36:56 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  11:36:56 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  11:38:19 Validating the Vendor!
+INFO  11:42:09 Validating the Vendor!
+INFO  11:47:46 Validating the Vendor!
+INFO  12:40:04 Application started. Press Ctrl+C to shut down.
+INFO  12:40:04 Application started. Press Ctrl+C to shut down.
+INFO  12:40:04 Hosting environment: Development
+INFO  12:40:04 Hosting environment: Development
+INFO  12:40:04 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  12:40:04 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  12:41:20 Validating the Vendor!
+INFO  12:41:25 Token Is Generated!
+INFO  12:43:00 Validating the Vendor!
+INFO  12:43:00 Token Is Generated!
+INFO  12:44:15 Validating the Vendor!
+INFO  12:44:15 Token Is Generated!
+INFO  01:08:03 Validating the Vendor!
+INFO  01:08:03 Token Is Generated!
+INFO  01:20:26 Validating the Vendor!
+INFO  01:20:26 Token Is Generated!
+INFO  01:21:22 Validating the Vendor!
+INFO  01:21:22 Token Is Generated!
+INFO  01:21:32 Validating the Vendor!
+INFO  01:21:32 Token Is Generated!
+INFO  01:21:52 Validating the Vendor!
+INFO  01:22:02 Validating the Vendor!
+INFO  01:22:02 Token Is Generated!
+INFO  07:47:34 Application started. Press Ctrl+C to shut down.
+INFO  07:47:34 Application started. Press Ctrl+C to shut down.
+INFO  07:47:34 Hosting environment: Development
+INFO  07:47:34 Hosting environment: Development
+INFO  07:47:34 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  07:47:34 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+ERROR 07:47:51 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+AuthenticationAPI.Controllers.TokenController.GenerateJSONWebToken (AuthenticationAPI)
+AuthenticationAPI.Controllers.TokenController.AuthenticateUser (AuthenticationAPI)
+AuthenticationAPI.Controllers.TokenController.GetCredentials (AuthenticationAPI)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 07:47:51 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+AuthenticationAPI.Controllers.TokenController.GenerateJSONWebToken (AuthenticationAPI)
+AuthenticationAPI.Controllers.TokenController.AuthenticateUser (AuthenticationAPI)
+AuthenticationAPI.Controllers.TokenController.GetCredentials (AuthenticationAPI)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  07:51:06 Validating the Vendor!
+INFO  07:51:12 Token Is Generated!
+INFO  07:55:23 Validating the Vendor!
+INFO  07:55:23 Token Is Generated!
+INFO  12:03:15 Application started. Press Ctrl+C to shut down.
+INFO  12:03:15 Application started. Press Ctrl+C to shut down.
+INFO  12:03:15 Hosting environment: Development
+INFO  12:03:15 Hosting environment: Development
+INFO  12:03:16 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  12:03:16 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+ERROR 12:03:39 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - AuthenticationAPI.Controllers.TokenController.GenerateJSONWebToken (AuthenticationAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 12:03:39 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - AuthenticationAPI.Controllers.TokenController.GenerateJSONWebToken (AuthenticationAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  12:20:11 Application started. Press Ctrl+C to shut down.
+INFO  12:20:11 Application started. Press Ctrl+C to shut down.
+INFO  12:20:11 Hosting environment: Development
+INFO  12:20:11 Hosting environment: Development
+INFO  12:20:11 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  12:20:11 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+ERROR 12:20:13 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - AuthenticationAPI.Controllers.TokenController.GenerateJSONWebToken (AuthenticationAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 12:20:13 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - AuthenticationAPI.Controllers.TokenController.GenerateJSONWebToken (AuthenticationAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  12:24:46 Application started. Press Ctrl+C to shut down.
+INFO  12:24:46 Application started. Press Ctrl+C to shut down.
+INFO  12:24:46 Hosting environment: Development
+INFO  12:24:46 Hosting environment: Development
+INFO  12:24:46 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  12:24:46 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+ERROR 12:24:48 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - AuthenticationAPI.Controllers.TokenController.GenerateJSONWebToken (AuthenticationAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 12:24:48 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - AuthenticationAPI.Controllers.TokenController.GenerateJSONWebToken (AuthenticationAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  12:30:18 Application started. Press Ctrl+C to shut down.
+INFO  12:30:18 Application started. Press Ctrl+C to shut down.
+INFO  12:30:18 Hosting environment: Development
+INFO  12:30:18 Hosting environment: Development
+INFO  12:30:18 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  12:30:18 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+ERROR 12:30:21 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - AuthenticationAPI.Controllers.TokenController.GenerateJSONWebToken (AuthenticationAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 12:30:21 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - AuthenticationAPI.Controllers.TokenController.GenerateJSONWebToken (AuthenticationAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  12:34:34 Application started. Press Ctrl+C to shut down.
+INFO  12:34:34 Application started. Press Ctrl+C to shut down.
+INFO  12:34:34 Hosting environment: Development
+INFO  12:34:34 Hosting environment: Development
+INFO  12:34:34 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  12:34:34 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+ERROR 12:34:36 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - AuthenticationAPI.Controllers.TokenController.GenerateJSONWebToken (AuthenticationAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 12:34:36 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - AuthenticationAPI.Controllers.TokenController.GenerateJSONWebToken (AuthenticationAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  12:41:04 Application started. Press Ctrl+C to shut down.
+INFO  12:41:04 Application started. Press Ctrl+C to shut down.
+INFO  12:41:04 Hosting environment: Development
+INFO  12:41:04 Hosting environment: Development
+INFO  12:41:04 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  12:41:04 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  12:42:06 Application started. Press Ctrl+C to shut down.
+INFO  12:42:06 Application started. Press Ctrl+C to shut down.
+INFO  12:42:06 Hosting environment: Development
+INFO  12:42:06 Hosting environment: Development
+INFO  12:42:06 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  12:42:06 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  12:42:53 Application started. Press Ctrl+C to shut down.
+INFO  12:42:53 Application started. Press Ctrl+C to shut down.
+INFO  12:42:53 Hosting environment: Development
+INFO  12:42:53 Hosting environment: Development
+INFO  12:42:53 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  12:42:53 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+ERROR 12:43:04 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+AuthenticationAPI.Controllers.TokenController.GenerateJSONWebToken (AuthenticationAPI)
+AuthenticationAPI.Controllers.TokenController.AuthenticateUser (AuthenticationAPI)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 12:43:04 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+AuthenticationAPI.Controllers.TokenController.GenerateJSONWebToken (AuthenticationAPI)
+AuthenticationAPI.Controllers.TokenController.AuthenticateUser (AuthenticationAPI)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  12:45:55 Validating the Vendor!
+INFO  12:46:02 Token Is Generated!
+INFO  12:59:01 Application started. Press Ctrl+C to shut down.
+INFO  12:59:01 Application started. Press Ctrl+C to shut down.
+INFO  12:59:01 Hosting environment: Development
+INFO  12:59:01 Hosting environment: Development
+INFO  12:59:01 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  12:59:01 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+ERROR 12:59:02 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+AuthenticationAPI.Controllers.TokenController.GenerateJSONWebToken (AuthenticationAPI)
+AuthenticationAPI.Controllers.TokenController.AuthenticateUser (AuthenticationAPI)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 12:59:02 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+AuthenticationAPI.Controllers.TokenController.GenerateJSONWebToken (AuthenticationAPI)
+AuthenticationAPI.Controllers.TokenController.AuthenticateUser (AuthenticationAPI)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  04:51:43 Application started. Press Ctrl+C to shut down.
+INFO  04:51:43 Application started. Press Ctrl+C to shut down.
+INFO  04:51:43 Hosting environment: Development
+INFO  04:51:43 Hosting environment: Development
+INFO  04:51:43 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  04:51:43 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  05:45:43 Application started. Press Ctrl+C to shut down.
+INFO  05:45:43 Application started. Press Ctrl+C to shut down.
+INFO  05:45:43 Hosting environment: Development
+INFO  05:45:43 Hosting environment: Development
+INFO  05:45:43 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  05:45:43 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  06:38:52 Application started. Press Ctrl+C to shut down.
+INFO  06:38:52 Application started. Press Ctrl+C to shut down.
+INFO  06:38:52 Hosting environment: Development
+INFO  06:38:52 Hosting environment: Development
+INFO  06:38:52 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  06:38:52 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  06:47:23 Application started. Press Ctrl+C to shut down.
+INFO  06:47:23 Application started. Press Ctrl+C to shut down.
+INFO  06:47:23 Hosting environment: Development
+INFO  06:47:23 Hosting environment: Development
+INFO  06:47:23 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  06:47:23 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  06:49:47 Validating the Vendor!
+INFO  06:49:59 Token Is Generated!
+INFO  07:57:31 Validating the Vendor!
+INFO  07:57:32 Token Is Generated!
+INFO  08:18:10 Validating the Vendor!
+INFO  08:18:10 Token Is Generated!
+INFO  08:21:36 Validating the Vendor!
+INFO  08:21:36 Token Is Generated!
+INFO  08:24:21 Validating the Vendor!
+INFO  08:24:22 Token Is Generated!
+INFO  08:37:53 Application started. Press Ctrl+C to shut down.
+INFO  08:37:53 Application started. Press Ctrl+C to shut down.
+INFO  08:37:53 Hosting environment: Development
+INFO  08:37:53 Hosting environment: Development
+INFO  08:37:53 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  08:37:53 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  09:10:58 Application started. Press Ctrl+C to shut down.
+INFO  09:10:58 Application started. Press Ctrl+C to shut down.
+INFO  09:10:58 Hosting environment: Development
+INFO  09:10:58 Hosting environment: Development
+INFO  09:10:58 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI
+INFO  09:10:58 Content root path: E:\Cognizant Post Joining\Smulation Project\AuthenticationAPI\AuthenticationAPI

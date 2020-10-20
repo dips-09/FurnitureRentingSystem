@@ -1,0 +1,43 @@
+﻿@model IEnumerable<FurnitureRentingClientMVC.Models.Furniture>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Furnitures Available</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FurnitureId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FurnitureName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FurnitureId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FurnitureName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.ActionLink("BOOK", "Book", new {  id=item.FurnitureId  })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
